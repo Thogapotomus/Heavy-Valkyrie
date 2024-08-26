@@ -1,0 +1,206 @@
+{
+    "hullName": "Heavy Valkyrie",
+    "hullId": "thog_heavy_valkyrie",
+    "hullSize": "CRUISER",
+    "style": "MIDLINE",
+    "spriteName": "graphics/ships/thog_Heavy Valkyrie.png",
+    "height": 280,
+    "width": 134,
+    "center": [
+        67, 137.5
+    ],
+    "collisionRadius": 174,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 160,
+    "viewOffset": 0,
+    "builtInMods": [
+        "advanced_ground_support"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 315,
+            "locations": [
+                    52.5,      -22
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 45,
+            "locations": [
+                    52.5,       22
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": 230,
+            "locations": [
+                   -89.5,      -28
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": 130,
+            "locations": [
+                   -89.5,       28
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                   -52.5,        0
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 3,
+            "angle": 0,
+            "locations": [
+                     106,      -28
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 3,
+            "angle": 0,
+            "locations": [
+                     106,       28
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -136.5, 0
+            ],
+            "length": 80,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -137.5, -19.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -137.5, 19.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -139.5, -28.5
+            ],
+            "length": 48,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -139.5, 28.5
+            ],
+            "length": 48,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -130.5, 56.5
+            ],
+            "length": 48,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -130.5, -56.5
+            ],
+            "length": 48,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -128.5, 47.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -128.5, -47.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        }
+    ],
+    "bounds": [
+            -130,       65,
+             -60,       52,
+             110,     34.5,
+           135.5,     20.5,
+           135.5,    -20.5,
+        
+             110,    -34.5,
+             -60,      -52,
+            -130,      -65
+    ]
+}
